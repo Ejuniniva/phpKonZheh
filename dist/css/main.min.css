@@ -1604,8 +1604,14 @@ textarea {
   left: 0;
   z-index: 20;
   height: 80px;
-  background-color: #fbfef5;
-  color: #10151D;
+  background-color: #10151D;
+  color: #fbfef5;
+}
+.footer__left {
+  grid-column: 8 span;
+}
+.footer__right img {
+  width: 50px;
 }
 
 /* Слайдер */
@@ -1904,6 +1910,7 @@ textarea {
 }
 .inform-сonfectionery__p {
   text-align: center;
+  font-size: 18px;
 }
 .FAQ {
   background-color: #fff;
@@ -1913,6 +1920,10 @@ textarea {
 .FAQ__block {
   width: 100%;
   border: 1px solid #333;
+}
+.FAQ__text {
+  padding-left: 20px;
+  font-size: 18px;
 }
 .FAQ__title {
   font-size: 24px;
@@ -1928,9 +1939,21 @@ textarea {
 .FAQ__right {
   grid-column: 6 span;
 }
+.FAQ__right img {
+  max-width: 685px;
+}
 .FAQ__list {
   list-style-type: disc;
   padding-left: 20px;
+}
+
+.inform-worker__item {
+  grid-column: 4 span;
+  height: 150px;
+}
+.inform-worker__item img {
+  max-width: 100%;
+  max-height: 150px;
 }
 
 /* Страница:  */
